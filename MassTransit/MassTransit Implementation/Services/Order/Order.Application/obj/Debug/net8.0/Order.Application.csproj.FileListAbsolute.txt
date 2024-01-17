@@ -1,0 +1,4 @@
+C:\Practice\Message Broker\MassTransit\MassTransit Implementation\Services\Order\Order.Application\obj\Debug\net8.0\Order.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Practice\Message Broker\MassTransit\MassTransit Implementation\Services\Order\Order.Application\obj\Debug\net8.0\Order.Application.AssemblyInfoInputs.cache
+C:\Practice\Message Broker\MassTransit\MassTransit Implementation\Services\Order\Order.Application\obj\Debug\net8.0\Order.Application.AssemblyInfo.cs
+C:\Practice\Message Broker\MassTransit\MassTransit Implementation\Services\Order\Order.Application\obj\Debug\net8.0\Order.Application.csproj.CoreCompileInputs.cache
