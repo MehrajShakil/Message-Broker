@@ -13,9 +13,12 @@ namespace Order.Infrastructure.Extensions
             services.AddMassTransit(busRegistrationConfigurator =>
             {
                 // Transport (many more transport over there: RabbitMQ, Amazon Bus Service, Amazon SQS, ActiveMQ, Kafka etc)
+                // This callback inside UsingRabbitMq, invoked after the service collection has been built.
                 busRegistrationConfigurator.UsingRabbitMq((busRegistrationContext, rabbitMqBusFactoryConfigurator) =>
                 {
-
+                    rabbitMqBusFactoryConfigurator.Host("localhost", "", rabbitMqHostSettings =>
+                    {
+                    });
                 });
             });
 
